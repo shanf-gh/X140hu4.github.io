@@ -1,0 +1,168 @@
+/* General styling */
+
+.anchor {
+    display: block; 
+    position: relative; 
+    top: -55px; 
+    visibility: hidden;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.container {   /* Set height for position relative to work properly */
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    padding: 30px 0 20px 0;
+}
+
+/* Navbar styling */
+.fa-free-code-camp:hover {
+    color: #006400;
+}
+
+.fa-github:hover {
+    color: #000;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+
+/* Hero styling */
+#hero {
+    height: 690px;
+    background: url("https://images.unsplash.com/photo-1441109296207-fd911f7cd5e5?auto=format&fit=crop&w=1071&q=80") no-repeat center center fixed;
+    /* background: url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?auto=format&fit=crop&w=1052&q=80") no-repeat center center fixed; */
+    /* background: url("https://images.unsplash.com/photo-1459292414836-763d35c7ae4c?auto=format&fit=crop&w=1050&q=80") no-repeat center center fixed; */
+    background-size: cover;
+    text-align: center;
+    color: rgb(223, 227, 240);
+}
+
+#hero hr {
+    border: 0;
+    width: 300px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#hero-title {
+    position: relative;
+    top: 40%;
+}
+/* Body styling */
+
+body {
+    padding-top: 56px;
+}
+
+/* Portfolio section */
+
+#sec-portfolio {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#sec-portfolio .row {
+    margin-bottom: 30px;
+}
+
+#sec-portfolio .card {
+    padding: 5px 5px;
+    margin: 15px 0;
+}
+
+
+/* Skills section */
+#sec-skills {
+    height: 400px;
+    background: url("https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-0.3.5&s=00348587d342e2ee61133a326e4a7c20&auto=format&fit=crop&w=1050&q=80") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: rgb(223, 227, 240);
+}
+
+#sec-skills .row {
+    margin-top: 35px;
+}
+
+#sec-skills i {
+    margin-bottom: 30px;
+}
+
+
+/* About section */
+
+#sec-about {
+    height: 540px;
+    background: url("https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?auto=format&fit=crop&w=967&q=80") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: rgb(223, 227, 240);
+}
+
+#sec-about .row {
+    position: relative;
+    top: 12%;
+    /* left: 50px;
+    text-align: left; */
+}
+
+#about-text {
+    margin: 0 auto;
+}
+
+/* Coloring when hovering logo */
+.fa-html5:hover {
+    color: #F16528;
+}
+
+.fa-css3-alt:hover {
+    color: #2965F1;
+}
+
+.fa-js:hover {
+    color: #F7E018;
+}
+
+.fa-node:hover {
+    color: #84CE24;
+}
+
+.fa-react:hover {
+    color: #61DBFB;
+}
+
+/* Footer styling */
+
+#footer {
+    height: 50px;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: rgba(0,0,0,0.9);
+}
+
+#footer .container {
+    position: relative;
+    top: 25%;
+    height: 75%;
+}
+
+/* Contact form styling */
+
+#message-text {
+    min-height: 200px;
+}
