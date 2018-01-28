@@ -29,6 +29,15 @@ h1 {
 }
 
 /* Navbar styling */
+.dropdown-item {
+    color: rgba(0,0,0,.5);
+}
+
+.dropdown-item.active {
+    color: rgba(0,0,0,.9);
+    background-color: #fff;
+}
+
 .fa-free-code-camp:hover {
     color: #006400;
 }
