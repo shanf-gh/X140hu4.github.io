@@ -101,7 +101,7 @@ body {
 
 /* Skills section */
 #sec-skills {
-    min-height: 400px;
+    min-height: 300px;
     background: url("https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-0.3.5&s=00348587d342e2ee61133a326e4a7c20&auto=format&fit=crop&w=1050&q=80") no-repeat center center fixed;
     background-size: cover;
     text-align: center;
