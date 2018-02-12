@@ -94,10 +94,10 @@ body {
 }
 
 #sec-portfolio .card {
+    min-height: 470px;
     padding: 5px 5px;
     margin: 15px 0;
 }
-
 
 /* Skills section */
 #sec-skills {
