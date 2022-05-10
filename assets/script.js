@@ -1,3 +1,3 @@
-function submitForm() {
-  document.getElementById("myForm").submit();
-}
+// function submitForm() {
+//   document.getElementById("myForm").submit();
+// }
